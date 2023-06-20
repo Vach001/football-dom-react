@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <TableHeader
-          src="https://banner2.cleanpng.com/20180711/vg/kisspng-201617-premier-league-english-football-league-l-lion-emoji-5b460f06eeac18.5589169115313180229776.jpg"
+          src="https://logos-world.net/wp-content/uploads/2023/02/Premier-League-Symbol.png"
           title="Premier League"
           description="Season 2020-2021"
         />

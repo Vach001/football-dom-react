@@ -1,4 +1,5 @@
 import { Component } from "react";
+import styles from "./Table.module.css"
 
 class Table extends Component {
   constructor(props) {
@@ -7,21 +8,9 @@ class Table extends Component {
     this.text = props.text;
   }
 
-  componentDidMount() {
-    console.log("Table component did mount");
-  }
-
-  componentDidUpdate() {
-    console.log("Table component did update");
-  }
-
-  componentWillUnmount() {
-    console.log("Table component will unmount");
-  }
-
   render() {
     return (
-      <div className="Table">
+      <div className={styles.table}>
         <h1>Table working</h1>
       </div>
     );
