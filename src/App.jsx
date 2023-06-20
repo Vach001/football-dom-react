@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./App.css";
 import TableHeader from "./components/data-display/TableHeader/TableHeader";
+import Club from "./components/Club/Club";
 
 class App extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends Component {
           title="Premier League"
           description="Season 2020-2021"
         />
+        <Club/>
       </div>
     );
   }
