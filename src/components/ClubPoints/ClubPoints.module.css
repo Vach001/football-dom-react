@@ -1,0 +1,8 @@
+.clubPoints {
+  display: flex;
+}
+
+.clubPoints > h4 {
+  width: 52px;
+  text-align: center;
+}

@@ -1,11 +1,12 @@
 import { Component } from "react";
 import styles from "./ClubInfo.module.css";
 
-export default class ClubInfo {
+export default class ClubInfo extends Component {
   constructor(props, name, image) {
-    this.props = props;
-    this.name = name;
-    this.image = image;
+    super(props)
+
+    this.name = props.name;
+    this.image = props.image;
   }
 
   render() {
