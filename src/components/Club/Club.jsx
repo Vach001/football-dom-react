@@ -10,9 +10,10 @@ export default class Club extends Component {
     this.clubData = props.clubData;
     this.position = props.position;
 
-    // const { name, image, stats } = this.clubData;
+    
   }
   render() {
+    // const { name, image, stats } = this.clubData;
     return (
       <div className={styles.club}>
         <h4 className={styles.clubContent}>{this.position ?? "-"}</h4>

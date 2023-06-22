@@ -1,9 +1,8 @@
 import { Component } from "react";
-import "./App.css";
-import TableHeader from "./components/data-display/TableHeader/TableHeader";
-import Club from "./components/Club/Club";
+import styles from "./App.css";
+import Table from "./components/Table/Table.jsx";
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
 
@@ -12,16 +11,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <TableHeader
-          src="https://logos-world.net/wp-content/uploads/2023/02/Premier-League-Symbol.png"
-          title="Premier League"
-          description="Season 2020-2021"
-        />
-        <Club/>
+      <div itemID={styles.root}>
+        <Table />
       </div>
     );
   }
-}
-
-export default App;
+};
